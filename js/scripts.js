@@ -1,6 +1,8 @@
 var message = function(input) {
   if (input === 4) {
-    return true;
+    return (input - input) + ", " + input;
+  } else {
+    return "not"
   }
 };
 
