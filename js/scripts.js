@@ -1,8 +1,8 @@
 var message = function(input) {
-  if (input === 4) {
-    return (input - input) + ", " + input;
+  if (input === 0) {
+    return "BEEP!";
   } else {
-    return "not"
+    return (input - input) + ", " + input;
   }
 };
 
