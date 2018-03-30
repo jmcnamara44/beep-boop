@@ -1,5 +1,7 @@
 var message = function(input) {
-  if (input === 1) {
+  if (input % 3 === 0 && input !== 0) {
+    return "I'm sorry Dave. I'm afraid I can't do that";
+  } else if (input === 1) {
     return "BOOP!";
   } else if (input === 0) {
     return "BEEP!"
