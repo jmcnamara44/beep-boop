@@ -9,7 +9,7 @@ $(document).ready(function() {
     var result = message(userInput);
 
     function message (input) {
-
+      array = [];
       var topNumber = input;
       var string = input.toString();
       if (input % 3 === 0 && input !== 0) {
